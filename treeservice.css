@@ -1,0 +1,189 @@
+html
+{
+  background-color: #4e8bdc;
+}
+
+h1, h2
+{
+  color: green;
+}
+
+h3
+{
+  text-align: center;
+}
+
+h5
+{
+  position:relative;
+  bottom:-1em;
+  right: .5em;
+  color: green;
+  font-size: 90%;
+  margin-left: .8em;
+}
+
+h6
+{
+  font-size: 125%;
+  text-align: right;
+  position:relative;
+  top: 3em;
+  left: 14em;
+  text-align: center;
+  color: green;
+}
+h7
+{
+  margin-top: 2em;
+  font-size: 150%;
+  color: green;
+  text-decoration: bold;
+}
+
+p
+{
+  display: block;
+  font-size: 115%;
+  margin: .5em;
+}
+
+.banner
+{
+  text-align: center;
+}
+
+.jobpictures
+{
+  padding: 1em;
+  float: right;
+  clear: right;
+}
+
+.jobtext
+{
+  color: green;
+  font-size: 125%;
+  line-height: 2.0;
+}
+
+.page
+{
+  margin: auto;
+  background-color: white;
+  padding-left: 1em;
+  padding: .5em;
+  margin: auto;
+  min-width: 30em;
+  max-width: 62em;
+  border-bottom-right-radius: .7em;
+  border-bottom-left-radius: .7em;
+  border-top-right-radius: .7em;
+  border-top-left-radius: .7em;
+} 
+
+.nav
+{
+  background-color: #4d8f46;
+  padding: .5em;
+  border-bottom-right-radius: .7em;
+  border-bottom-left-radius: .7em;
+  border-top-right-radius: .7em;
+  border-top-left-radius: .7em;
+  font-family: Arial;
+  text-align: center;
+  margin: auto;
+  min-width: 30em;
+  max-width: 58em;
+}
+
+.nav > a
+{
+  text-decoration: none;
+  color: #000000;
+  font-size: 120%;
+  margin: 1.7em;
+  padding: .3em;
+  display: inline;
+}
+
+.nav > a:hover, .at
+{
+  color: #fefefe;
+}
+
+.nav  > a.at
+{
+  color: #fefefe;
+}
+
+#banner
+{
+}
+
+.footer
+{
+  margin-top: .5em;
+  padding-right; 1em;
+  border-top: 1px solid green;
+  clear: both;
+  text-align: right;
+  font-size: 75%;
+}
+
+
+.slides_container
+{
+
+  width:250px;
+  height:320px;
+  display:block;
+  margin: 2em; 
+  position:relative;
+  bottom: -1.95em;
+  left:0px;
+}
+
+.pagination li
+{
+  display: inline;  
+  font-size: 130%;
+  margin-left: .5em;
+  margin-right: .5em;
+  position:relative;
+  bottom: 2em;
+  right: .55em;
+}
+
+ul.pagination > li > a
+{
+  text-decoration: none;
+  font-weight:bold;
+  color:green;
+}
+
+.slides
+{
+  background-image: url('img/frame.png');
+  background-repeat:no-repeat;
+  background-position:center; 
+  position: center;
+  float: right;
+  margin-right: 3em;
+  position:relative;
+  bottom:5em;
+  left:8px;
+}
+.prev
+{
+  position:relative;
+  bottom:11.5em;
+  left:8px;
+}
+
+.next
+{
+  position:relative;
+  bottom:11.5em;
+  left:15.92em;
+}
